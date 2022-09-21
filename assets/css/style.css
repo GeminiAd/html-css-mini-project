@@ -1,0 +1,64 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    background-color: blue;
+    color: white;
+}
+
+ header h1 {
+    float: left;
+    font-size: 50px;
+    margin: 15px;
+ }
+
+ header nav {
+    font-size: 20px;
+    margin: 15px;
+    float: right;
+    padding-top: 20px;
+ }
+
+ header nav ul {
+    list-style-type: none;
+ }
+
+ header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+ }
+
+ a {
+    color: white;
+    text-decoration: none;
+ }
+
+ figure {
+    margin: 20px;
+ }
+
+ img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+ figcaption {
+    display: block;
+    text-align: center;
+ }
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+
+}
